@@ -1,0 +1,317 @@
+  *{
+	  margin: 0 px;
+	  padding:1px;
+	 
+	 
+	 
+	}
+	
+	a{
+	  text-decoration: none;
+	  color:#FFF;
+	  
+	 
+	
+	}
+	
+	body{
+      background-color: #000;
+	  color: #FFF;
+	  font-family: 'Source Code Pro', monospace;
+	}
+	
+	ul{
+	  
+	  list-style: none;
+	  
+	 }
+	 
+	 img{
+		 width:70px;
+	 }
+	 
+	 input[type="checkbox"]
+	 {
+		 display:none;
+	 }
+	 
+	 figcaption{
+		 font-size:35px;
+		 padding:50px 100px;	 
+	 }
+	 
+     nav{
+		 
+		 background-color:;
+		 height: 100%;
+		 width: 350px;
+		 left:-350px;
+		 position:absolute;
+		 cursor: pointer;
+	     transition: all 300ms ease;
+		 padding:40px 20px
+		}
+		
+		input[type="checkbox"]:checked~nav
+		{
+			transform:translateX(350px);
+			
+		}
+		
+		
+			
+			
+			
+		}
+		
+     ul{
+		top:70px;
+		position:absolute;
+		width:100%;
+		display: block;
+		
+	
+	 }
+	 
+	 a{ 
+		display:block;
+		padding: 15px 10px;
+		color:#FFF;
+		font-size: 1.7rem;
+		transition: all 300ms ease;
+	 }	 
+  
+     a:hover{
+     background-color: blue;
+	 color:black;
+	 
+	}
+	
+	label{
+		background-color:;
+		padding:0px;
+		position:absolute;
+		z-index: 1;	
+	}
+	
+	.logo {
+	height: 100%;
+	width: 40%;
+	}
+	
+	
+		
+	}
+	
+	#conteudo {
+	   margin:1px;
+	   padding: 1px 1px;
+	   height: 100px;
+	   background-color: black;  
+	}
+	
+	.btn-primary {
+	background: var(--default-green);
+	color: white;
+	text-transform: uppercase;
+	padding: 15px 10px;
+	border: none;
+	border-radius: 10px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: all 300ms ease;
+}
+
+.btn-primary:hover {
+	
+	cursor: pointer;
+}
+	
+	#showcase {
+    margin: 0;             
+	padding: 0;          
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background: url("showcase.webp") center center/cover;
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color;
+	text-decoration: none;
+	
+}
+                                                              /* BARRA CENTRO*/
+#showcase .showcase-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	justify-content: center;
+	padding: 0;
+	
+}
+
+#showcase .showcase-container h2 {
+	font-size: 4.8rem;
+	text-decoration: none;
+	
+
+}
+
+#showcase .showcase-container p {
+	margin: 15px 0;
+	font-size: 1.7rem;
+	text-decoration: none;
+
+	
+}
+
+#showcase .showcase-container h1{
+	color:#FFBD8B;
+			
+}
+
+#footer {
+	background: black;
+	color: white;
+	padding: 0px 0;
+    font-size:0px;
+}
+
+#footer .footer-content {
+	display: flex;
+	width: 70%;
+	margin: auto;
+	justify-content: space-between;
+}
+
+
+#footer .footer-content .footer-menu {
+	margin: 0 60px;
+	list-style: none;
+	
+	
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+	margin: 0px 0;
+	transition: all 300ms ease;
+	
+}
+
+#footer .footer-content .footer-menu .footer-menu-item a:hover {
+	
+	cursor: pointer;
+	height: 20%;
+	display: block;
+}
+
+#footer .footer-content .footer-menu p {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #919496;
+	font-size: 0.8rem;
+}
+
+#footer .footer-content .footer-menu li{
+	
+    display: block;
+	font-size:10px;
+	
+
+}
+
+#footer .footer-content .footer-menu a{
+	
+    display: block;
+	font-size:25px;
+	height: 10%;
+    font-family: 'Kanit', sans-serif;
+}
+
+.footer-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 60%;
+	margin: auto;
+	font-weight: bold;
+	color: #919496;
+	font-size: 0.75rem;
+	padding-top: 50px;
+}
+
+.footer-info .footer-info-items {
+	display: flex;
+	list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+	margin: 0 10px;
+	transition: all 300ms ease;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #919496;
+	font-size: 0.8rem;
+	
+}
+
+
+.footer-info {
+	display: block;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 60%;
+	margin: auto;
+	font-weight: bold;
+	color: #919496;
+	font-size: 0.95rem;
+	padding-top: 50px;
+}
+
+.footer-info .footer-info-items {
+	display: flex;
+	list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+	margin: 0 20px;
+	transition: all 300ms ease;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+.footer-info .rights .country {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.footer-info .rights .country p {
+	transition: all 300ms ease;
+}
+
+.footer-info .rights .country p:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+.footer-info .rights .country .brazil-flag {
+	height: 20px;
+	width: auto;
+	display: inline-block;
+	margin-left: 10px;
+}
